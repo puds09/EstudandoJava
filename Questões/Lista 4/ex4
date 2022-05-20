@@ -1,0 +1,17 @@
+Quadrado de Pares
+
+Usando funções faça um programa que leia um valor n
+indefinidas vezes. O programa deve encerrar quando o valor de n for zero. Para cada n lido apresente o quadrado de cada um dos valores pares (conforme formato especificado abaixo) de 1 até n, inclusive n
+
+, se for o caso.
+
+Entrada:
+
+Inteiro n≥
+
+0.
+
+Saída:
+
+Será impresso na tela o quadrado de todos os números pares de 1 até n
+que são menores ou iguais a n, conforme exemplo abaixo.

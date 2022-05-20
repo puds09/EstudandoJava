@@ -1,0 +1,15 @@
+Função para Entrada de Dados
+
+Usando uma função, faça um programa que leia 10 números inteiros e imprima na tela o maior deles. No caso de valores iguais, imprima qualquer um dos maiores. Caso o maior número seja múltiplo do primeiro número n
+lido, imprima n
+
+na tela.
+
+Entrada:
+
+Dez números inteiros, considere que o primeiro número lido nunca será 0.
+
+Saída:
+
+O maior número m
+ e o primeiro número n lido, caso m=a⋅n,a∈Z, em linha separada.

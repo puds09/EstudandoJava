@@ -1,0 +1,20 @@
+Cake Store
+
+Beijo da Vó é um loja de bolos que a dona Sílvia acabou de abrir e está fazendo uma promoção de inauguração.
+
+Todo bolo que ela vende nos próximos três meses terá uma fatia premiada, e quem pegá-la ganha um carro.
+
+Mas a dona Sílvia está tendo problemas de gerenciar quem pegou a fatia premiada, pois a clientela anda volumosa.
+
+Sabendo das suas habilidades computacionais, a dona Sílvia pediu sua ajuda para escrever um programa que a responda, para cada bolo, quem pegou a fatia premiada e foi o fatídico ganhador de um carro zero.
+
+Entrada:
+
+A primeira linha da entrada consiste em dois inteiros F e P, correspondentes ao número de fatias, e o índice (iniciando em zero) da fatia premiada.
+
+As próximas F linhas contêm, cada uma, uma string não-vazia N e um inteiro E correspondentes ao primeiro nome da pessoa e ao índice da fatia escolhida, respectivamente.
+
+Note que os índices das fatias são atualizados toda vez que alguém retira um pedaço.
+
+Saída:
+Seu programa deve imprimir na tela o nome da pessoa que recolheu a fatia premiada.

@@ -1,0 +1,21 @@
+Déficit de Memória
+
+André é uma criança com déficit de memória recente e uma quantidade enorme de brinquedos. Ele gosta de organizá-los das mais diversas formas e inventou a seguinte brincadeira:
+
+No início da semana, André escreve a configuração dos brinquedos na sua prateleira.
+Uma vez por dia, durante cinco dias, André vai até a sua prateleira e move um dos seus brinquedos de lugar zero ou mais posições, empurrando os outros conforme necessário. 
+
+Ao final dos cinco dias, André recupera sua anotação do início da semana e verifica o que tem de diferente para a configuração final.
+
+Depois de esquecer de anotar a configuração inicial três vezes, André decide contratar um programador experiente para ajudá-lo na sua brincadeira, e entra em contato com você.
+
+Entrada:
+
+A primeira linha da entrada contém um inteiro N, o número de brinquedos na prateleira.
+
+A próxima linha contém N caracteres diferentes separados por espaço, os identificadores de cada um dos brinquedos na prateleira, em ordem.
+
+As próximas 5 linhas contêm, cada uma, um caractere B, o brinquedo a ser movido; um caractere D, a direção em que ele será movido, podendo ser ‘E’ (para esquerda), ou ‘D’ (para direita); e um inteiro Q, a quantidade de espaços que o brinquedo será movido.  Caso a quantidade de espaços a esquerda (ou direita) extrapole a primeira (ou última) posição, o brinquedo deverá permanecer no início (ou fim) da prateleira, ou seja, o deslocamento é limitado pelas extremidades da prateleira
+
+ Saída:
+Seu programa deve imprimir uma única linha, contendo o número de brinquedos fora dos seus lugares, ao fim dos 5 dias.

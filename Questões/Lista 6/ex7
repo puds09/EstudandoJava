@@ -1,0 +1,18 @@
+Hanói
+
+A Torre de Hanói é um jogo matemático que data de 1883, mas há lendas de sua existência desde a criação do mundo.
+
+O objetivo do jogo é trazer todos os discos da haste esquerda para a haste direita seguindo as seguintes três regras simples:
+
+    Apenas um disco pode ser movido por vez;
+    Cada movimento consiste em retirar o disco que está mais acima em uma das hastes, e o colocar no topo de outra haste;
+    Nenhum disco pode ser colocado sobre um disco menor.
+
+Seu objetivo é criar um simulador da solução mais otimizada para este puzzle.
+
+Entrada:
+
+A entrada consiste de apenas dois inteiros H e P, descrevendo o número de discos da torre de Hanói e o número de passos desejados, respectivamente.
+
+Saída:
+Seu programa deve simular a solução ótima do puzzle e parar após a execução de P passos. Ao final da execução, ele deve imprimir na saída padrão três inteiros, cada um descrevendo a quantidade de discos em cada torre após P passos.

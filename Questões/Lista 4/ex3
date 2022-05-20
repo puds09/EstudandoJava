@@ -1,0 +1,17 @@
+Pares do Intervalo
+
+Usando recursividade, faça um programa que dado um inteiro n
+positivo lido do teclado, retorne todos os números pares maiores ou iguais a dois, que são menores ou iguais a n
+
+.
+
+Entrada:
+
+Um único inteiro  n≥0
+
+.
+
+Saída:
+
+Todos os números pares, maiores ou iguais a dois, que são menores ou iguais a n
+, um por linha.

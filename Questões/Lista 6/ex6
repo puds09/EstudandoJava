@@ -1,0 +1,13 @@
+Florêncio Pede Ajuda
+
+Florêncio é um jovem programador Ruby que está aprendendo Java e está tendo dificuldade em não somente achar a linguagem palatável, como se acostumar ao padrão CamelCase.
+
+Sabendo do versátil programador que é, Florêncio pede sua ajuda para fazer um conversor de snake_case para CamelCase.
+
+Entrada:
+
+A primeira e única linha da entrada consiste em uma palavra ou frase em snake_case, ou seja, todas as letras minúsculas, separadas por underscore (_).
+
+Saída:
+
+Seu programa deve imprimir uma única linha, contendo a entrada convertida para CamelCase, ou seja, todas as letras minúsculas, exceto a primeira letra de cada palavra.

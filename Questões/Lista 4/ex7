@@ -1,0 +1,46 @@
+Definições Recursivas com Strings
+
+Seja uma string s
+
+definida da seguinte forma:
+
+s::=nil | n:s′
+
+
+onde nil
+representa a string vazia, e n : s′ denota a string com primeiro elemento n e cauda s′ (sendo s′
+
+também uma string).
+
+O comprimento de uma string é definido recursivamente por:
+
+length(s)={0; se s=nil1+length(s′); se s=a : s′
+
+
+A concatenação de strings também pode ser definida por uma função recursiva:
+
+concat(s1,s2)={s2; se s1=nila : (concat(s1′,s2′)); se s1=a : s1′
+
+
+O reverso de strings é definido por:
+
+rev(s)={s; se s=nilconcat(rev(s′),(n : nil)); se s=n : s′
+
+Uma lista é prefixo de outra se:
+
+prefix(s1,s2)={True; se s1=nil e s2≠nilprefix(s1′,s2′); se s1=a : s1′ e s2=b : s2′False; caso contrário
+
+Dado duas strings s1
+e s2, implemente essas funções recursivas, completando o código dado abaixo para atender as especificações de Saída.
+
+Entrada:
+
+A entrada consistirá apenas de duas strings  s1
+e s2
+
+. Não terá como entrada duas strings iguais.
+
+Saída:
+
+Escreva na tela  s1
+concatenada com s2, o reverso de  s1 e se  s1 é prefixo de s2. No primeiro exemplo a seguir  s1 é a string vazia (nil).

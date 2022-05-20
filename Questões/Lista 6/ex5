@@ -1,0 +1,24 @@
+Elastiman
+
+Roberto é um game designer muito famoso na região onde mora por ter lançado alguns jogos de sucesso, mas nunca estabeleceu uma empresa de fato.
+
+Há duas semanas, Roberto chegou em você com a sua mais nova ideia revolucionária de jogo, Elastiman! Sem saber a quem chamar para ajudá-lo a desenvolver, ele recorreu ao programador mais próximo, que aconteceu de ser você.
+
+Seu trabalho na primeira versão do jogo é desenvolver a parte da engine que lida com gravidade.
+
+Entrada:
+
+A primeira linha da entrada contém um inteiro N.
+
+As próximas N linhas conterão uma matriz N x N, descrevendo o cenário atual:
+
+cada '.' corresponde a um espaço vazio;
+
+cada 'x' corresponde a um bloco fixo, que não está sujeito à gravidade;
+
+cada 'o' corresponde a um bloco móvel, que está sujeito à gravidade.
+
+Saída:
+
+Seu programa deve imprimir a tela após um ciclo do loop de jogo, após a execução da gravidade. Para simplificar sua vida, considere a gravidade uma força que só puxa um espaço para baixo por loop, não uma força física de facto.
+Note que blocos móveis não podem atravessar blocos fixos.

@@ -1,0 +1,18 @@
+Mínimo Múltiplo Comum
+
+O mínimo múltiplo comum (mmc) de dois inteiros a
+e b é o menor inteiro positivo que é múltiplo simultaneamente de a e b . Se não existir tal inteiro positivo, por exemplo, se a=0 ou b=0, então mmc(a,b
+
+) é zero por definição. O mínimo múltiplo comum é útil em operações de soma e subtração de frações vulgares, onde é preciso um denominador comum entre as frações operadas. Usando recursividade faça um programa que leia dois números separados por espaço indefinidas vezes e calcule o seu mmc. O programa deve encerrar quando a entrada conter um número negativo.
+
+Entrada:
+
+Cada linha de entrada conterá dois inteiros a
+e b
+
+.
+
+Saída:
+
+O mínimo múltiplo comum de a
+e b.
